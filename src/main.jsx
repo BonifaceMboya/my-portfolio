@@ -9,7 +9,7 @@ import Diranode from "./diranode.jsx";
 import ErrorPage from "./ErrorPage.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/my-portfolio">
+  <BrowserRouter>
     <Header />
     <Routes>
       <Route index element={<Home />} />
